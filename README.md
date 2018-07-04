@@ -70,7 +70,11 @@ no
 
 * Any additional tests done ? -- apart mentioned in 'suggested tests'
 
-No. There is one test that can be possibly added which will verify the actual content on the screen. It can be implemented two ways (1) : add a function that will make a service call and store response in some object. then use data from it to assert content on the screen. (2) : use mock data and inject it in the view. then assert against known values.
+No. There is one test that can be possibly added which will verify the actual content on the screen. It can be implemented two ways 
+
+(1) : add a function that will make a service call and store response in some object. then use data from it to assert content on the screen. 
+(2) : use mock data and inject it in the view. then assert against known values.
 
 * Any missing test automation coverage, because it couldn't be easily verified ?
-test to verify that items are displayed more recent to less recent. it can be implemented but it is more complex and need either of the above two approaches.
+
+Test to verify that items are displayed more recent to less recent. it can be implemented but it is more complex and need either of the above two approaches.
